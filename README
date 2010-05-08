@@ -1,0 +1,16 @@
+OVERVIEW:
+This is a simple way to retrive contacts from Gmail or a hosted application from Google with PHP. This script uses curl to make requests to Google Contacts Data API. 
+More information about Google Contacts Data API can be found at:
+http://code.google.com/apis/contacts/docs/3.0/developers_guide_protocol.html
+
+WHAT YOU NEED:
+PHP with curl enabled.
+
+HOW TO USE:
+Just replace the http://domain.com/google.php with your domain name and script path, upload the file and then click on "Authorize with GOOGLE", the user will be redirected
+to Google's Account page where after logging in will get back to your page and list the contact's name and email address.
+
+TODO:
+-add validations (in case no token is sent to google)
+-check if the tokens are valid
+-show message if user has no contacts
